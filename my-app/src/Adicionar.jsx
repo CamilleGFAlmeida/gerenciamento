@@ -1,12 +1,15 @@
 import React from 'react';
 import './Adicionar.css';
 import LockIcon from '@mui/icons-material/Lock';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function Adicionar() {
   return (
     <div className="main-container">
       <header className="header">
-        <button className="back-button">⬅</button>
+        <button className="back-button">
+          <ArrowBackIcon /> 
+        </button>
         <h1>Endereço</h1>
         <button className="lock-button">
           <LockIcon />
