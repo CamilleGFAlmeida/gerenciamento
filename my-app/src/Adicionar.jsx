@@ -1,5 +1,6 @@
 import React from 'react';
 import './Adicionar.css';
+import LockIcon from '@mui/icons-material/Lock';
 
 function Adicionar() {
   return (
@@ -7,7 +8,9 @@ function Adicionar() {
       <header className="header">
         <button className="back-button">⬅</button>
         <h1>Endereço</h1>
-        <button className="lock-button">🔒</button>
+        <button className="lock-button">
+          <LockIcon />
+        </button>
       </header>
       
       <section className="banner-section">
@@ -23,7 +26,7 @@ function Adicionar() {
         </div>
         <div className="title-info">
           <h2 className="title">Título</h2>
-          <p className="rating">⭐⭐⭐⭐☆</p>
+          <p className="rating">★★★★☆</p>
           <button className="add-title-rating">Adicionar Título e Classificação</button>
           <button className="add-address">Adicionar Endereço</button>
           <button className="add-phone">Adicionar Telefone</button>
